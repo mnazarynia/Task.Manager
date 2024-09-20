@@ -17,7 +17,7 @@ class TaskManager:
         self.task_entry.pack()
 
         # Date Selection
-        self.date_label = tk.Label(root, text="Due Date (YYYY-MM-DD):")
+        self.date_label = tk.Label(root, text="Due Date (DD/MM/YYYY):")
         self.date_label.pack()
 
         self.date_entry = tk.Entry(root, width=40)
